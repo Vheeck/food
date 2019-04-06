@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Bold.eot');
+    src: url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Bold.woff') format('woff'),
+        url('http://6e461dbc489ad4c14a5e-c28b1386850db717caac12549deaa1b5.r57.cf3.rackcdn.com/newsletter-fonts/CircularStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+nav {
+    margin: 0px -8px 0px -8px;
+    box-shadow: 0 3px 3px -3px #bbbbbb;
+    padding: 0.2%;
+}
+
+.logodiv {
+    display: inline-block;
+}
+.uldiv {
+    display: inline;
+    float: right;
+    width: 70%;
+}
+.navlogo {
+    width: 52%;
+    margin-left: 30%
+}
+
+.navul {
+}
+
+.navli {
+    /* float: right; */
+    display: inline-flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.navlink {
+    display: block;
+    text-decoration: none;
+    color: #666666;
+    padding: 5% 0% 5% 0%;
+}
+
+.navli .active {
+    color:  #459d72;
+}
+
+#textsect {
+    margin-left: 4%;
+}
+
+.hp {
+    font-family: 'Circular Std';
+    letter-spacing: 2.6px;
+    font-size: 54px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.happy {
+    color: #969696;
+}
+
+.people {
+    color: #97d48d;
+}
+
+.eatshere {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.48;
+    font-size: 44px;
+    font-weight: 600;
+    color: #171c34;
+    margin-top: -2rem;
+}
+.lastText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #919aa3;
+    margin-top: -1.5rem;
+}
