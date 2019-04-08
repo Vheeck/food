@@ -10,6 +10,17 @@
     font-style: normal;
 }
 
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+    transition: 400ms;
+    background-color: #eeeeee;
+    color: #459d72;
+}
+
 nav {
     margin: -0.8% -8px 0px -8px;
     box-shadow: 0 3px 3px -3px #bbbbbb;
@@ -193,6 +204,14 @@ footer {
     font-size: 1rem;
     /* font-weight: bold; */
     box-shadow: 0px 0px 16px 1px #eeeeee;
+    transition: 400ms;
+}
+
+#gsbtn:hover {
+    opacity: 0.9;
+    transition: 400ms;
+    background-color: #eeeeee;
+    color: #459d72;
 }
 
 #loch1 {
@@ -220,9 +239,19 @@ footer {
     border-color: #dddddd;
     border-style: solid;
     border-radius: 4px;
+    transition: 300ms
+}
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    opacity: 0.9;
+    transition: 300ms;
 }
 .cardimg {
     width: 100%;
+}
+
+.cardimg:hover {
+    background-color: black;
 }
 
 .locimg {
@@ -286,13 +315,9 @@ footer {
 }
 
 #wrksect1 {
-    margin-left: 45%;
-    width: 54%;
-    height: 7rem;
+    height: 5rem;
 }
 #wrksect2 {
-    margin-left: 45%;
-    width: 54%;
     height: 12rem;
 }
 
@@ -321,10 +346,13 @@ footer {
     border-style: solid;
     border-radius: 50%;
     margin: 0% 0.4% 10rem 0.4%;
+    cursor: pointer;
+    transition: 500ms;
 }
 
 .pg.active {
     background-color: #459d72;
+    transition: 500ms;
 }
 
 .poppins {
@@ -407,12 +435,15 @@ footer {
 .arrow {
     width: 30%;
     padding: 3.5rem;
+    cursor: pointer;
 }
 
 .custimg {
     border-radius: 50%;
     margin-left: 2.6%;
     margin-right: 2.6%;
+    cursor: pointer;
+    transition: 2000ms
 }
 
 #custimg1 {
@@ -458,30 +489,40 @@ h1.poppins {
 }
 
 #contactusdiv {
-    margin-top: -45%;
-    /* background-color: #666666; */
+    margin-bottom: 10%;
     width: 50%;
     padding: 3% 10% 1.5% 10%;
     border-style: solid;
     border-width: thin;
     border-radius: 4px;
-    background-color: white;
     border-color: #eeeeee;
 }
+
+#googlemap {
+    height: 40rem;
+    width: 100%;
+    background-image: url('../img/google maps.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #cusect1 {
     display: inline-block;
     width: 45%;
     margin-right: 5%;
+    background-color: white;
 }
 #cusect2 {
     display: inline-block;
     width: 45%;
+    background-color: white;
     float: right;
 }
 
 .cuh1 {
     font-size: 3rem;
     color: #171c34;
+    margin-bottom: 10%
 }
 
 .cuh3 {
@@ -496,11 +537,6 @@ h1.poppins {
     margin: 0%;
 }
 
-#mapiframe {
-    margin-top: 3%;
-    width: 100%;
-    height: 35rem;
-}
 
 #footersect1 {
     display: inline-block;
@@ -574,4 +610,26 @@ h1.poppins {
     width: 18%;
     float: right;
     margin-right: 15%;
+}
+
+#caurosel-container {
+    background-color: white;
+    margin-left: 45%;
+    /* width: 50% */
+    margin-top: -3%;
+    height: 20rem;
+    overflow: hidden;
+}
+
+#caurosel-content1 {
+    width: 100%;
+    transition: 1000ms;
+}
+#caurosel-content2 {
+    width: 100%;
+    transition: 1000ms;
+}
+#caurosel-content3 {
+    width: 100%;
+    transition: 1000ms;
 }

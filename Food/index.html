@@ -6,9 +6,10 @@
     <title>Food</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
+    <link rel="shortcut icon" href="assets/img/Logo.png" type="image/x-icon">
     <script src="assets/js/main.js"></script>
 </head>
-<body>
+<body onload="startcaro(1, 0)">
     <nav>
         <div class="logodiv">
             <img class="navlogo" src="assets/img/Logo.png" alt="Logo">
@@ -111,16 +112,38 @@
 
         <div id="works">
             <h1 id="wrksh1">How it works</h1>
-            <div id="wrksect1">
-                <h3 class="wrkh3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ex. Ullam fugit reiciendis modi dolor deleniti, a libero. Tempora iste ex explicabo rem quam praesentium veritatis possimus aut pariatur iure.</h3>
+
+            <div id="caurosel-container">
+                <div id="caurosel-content1" style="display:block">
+                    <div id="wrksect1">
+                        <h3 class="wrkh3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ex. Ullam fugit reiciendis modi dolor deleniti, a libero. Tempora iste ex explicabo rem quam praesentium veritatis possimus aut pariatur iure.</h3>
+                    </div>
+                    <div id="wrksect2">
+                        <h3 class="wrkh3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deleniti veniam molestiae adipisci, quos consequatur iusto ducimus quia tempora incidunt reiciendis at est excepturi provident ex cupiditate amet culpa sapiente.</h3>
+                    </div>
+                </div>
+                <div id="caurosel-content2" style="display:none">
+                    <div id="wrksect1">
+                        <h3 class="wrkh3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nemo voluptate quibusdam, nulla ratione explicabo consequuntur eligendi itaque, impedit porro, praesentium id animi natus hic quos laboriosam? Neque, facilis velit!</h3>
+                    </div>
+                    <div id="wrksect2">
+                        <h3 class="wrkh3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione beatae impedit ad ea praesentium tempore adipisci perferendis inventore autem, libero tempora veniam expedita, corporis cumque ducimus aut ipsa numquam!</h3>
+                    </div>
+                </div>
+                <div id="caurosel-content3" style="display:none">
+                    <div id="wrksect1">
+                        <h3 class="wrkh3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, odio facilis? Odit assumenda debitis natus corporis unde nisi repellendus at veniam mollitia blanditiis modi, id consectetur illum illo dolore earum.</h3>
+                    </div>
+                    <div id="wrksect2">
+                        <h3 class="wrkh3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ratione veritatis quos ducimus labore quis, illo aspernatur impedit a ut, eum alias, recusandae saepe omnis iusto quidem laboriosam nesciunt eius.</h3>
+                    </div>
+                </div>
             </div>
-            <div id="wrksect2">
-                <h3 class="wrkh3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deleniti veniam molestiae adipisci, quos consequatur iusto ducimus quia tempora incidunt reiciendis at est excepturi provident ex cupiditate amet culpa sapiente.</h3>
-            </div>
+            
             <div id="wrkpg" align="center">
-                <div class="pg"></div>
-                <div class="pg active"></div>
-                <div class="pg"></div>
+                <div onclick="caurosel(1)" id="pg1" class="pg active"></div>
+                <div onclick="caurosel(2)" id="pg2" class="pg"></div>
+                <div onclick="caurosel(3)" id="pg3" class="pg"></div>
             </div>
         </div>
 
@@ -140,17 +163,17 @@
             
             <div id="fbcarsect">
                 <div id="pgnt1">
-                    <img class="arrow" src="assets/img/arrow1.png" alt="">
+                    <img onclick="imgcaurosel(0)" class="arrow" src="assets/img/arrow1.png" alt="">
                 </div>
                 <div id="custscrl">
-                    <img class="custimg" id="custimg1" src="assets/img/cust3.png" alt="">
-                    <img class="custimg" id="custimg2" src="assets/img/cust2.png" alt="">
-                    <img class="custimg" id="custimg3" src="assets/img/cust1.png" alt="">
-                    <img class="custimg" id="custimg4" src="assets/img/cust4.png" alt="">
-                    <img class="custimg" id="custimg5" src="assets/img/cust5.png" alt="">
+                    <a href="#"><img class="custimg" id="custimg1" src="assets/img/cust3.png" alt=""></a>
+                    <a href="#"><img class="custimg" id="custimg2" src="assets/img/cust2.png" alt=""></a>
+                    <a href="#"><img class="custimg" id="custimg3" src="assets/img/cust1.png" alt=""></a>
+                    <a href="#"><img class="custimg" id="custimg4" src="assets/img/cust4.png" alt=""></a>
+                    <a href="#"><img class="custimg" id="custimg5" src="assets/img/cust5.png" alt=""></a>
                 </div>
                 <div id="pgnt2">
-                    <img class="arrow" src="assets/img/arrow2.png" alt="">
+                    <img onclick="imgcaurosel(1)" class="arrow" src="assets/img/arrow2.png" alt="">
                 </div>
             </div>
         </div>
@@ -162,11 +185,7 @@
         </div>
         <div id="contactus" align="center">
             <h1 id="bktbh1" class="cuh1 poppins">Contact Us</h1>
-            
-            <div>
-                <iframe id="mapiframe" src="map.google.com" frameborder="0"></iframe>
-            </div>
-            
+
             <div id="contactusdiv" align="left">
                 <div id="cusect1">
                     <h3 id="" class="cuh3 poppins">Abuja</h3>
@@ -181,6 +200,10 @@
                     <h3 id="" class="cuh3 poppins">+23480373737309</h3>
                 </div>
             </div>
+
+            <div id="googlemap">
+            </div>
+
         </div>
     </main>
     <footer align="center">
