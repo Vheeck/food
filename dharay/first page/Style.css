@@ -1,0 +1,124 @@
+#nav_search{
+    width: 425px;
+    height: 48px;
+    border-radius: 3px;
+    border: solid 1px #e7e7e7;
+    background-color: #fffefa;
+    letter-spacing: 1px;
+    text-rendering: inherit
+
+
+        
+    
+}
+.inp{
+    margin-left: 12%;
+    margin-top: -5%
+}
+#nya{
+    margin-left: 82%;
+    margin-top: -2%
+}
+.test{
+    margin-left: 92%;
+    margin-top: -10%;
+    border-radius: 50px;
+    border-width: 20px;
+    border-color: brown;
+}
+
+.pic{
+    margin-top: -2%;
+}
+
+/* drop down */
+
+.navlink{
+    cursor: pointer;
+    text-decoration: none;
+    color: #333333;
+}
+
+.navlink.active{
+    color: rgb(69, 157, 114); 
+}
+
+.pass{
+    color: rgb(69, 157, 114);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 16px;
+   letter-spacing: 1.8px;
+   font-weight: lighter;
+ 
+}
+
+.main{
+    background-color: #555;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 19%;
+}
+.Log{
+    margin-top: 8%;
+    background-color: rgb(207,207,207);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    padding-bottom: 2%;
+    width: 499px
+    
+}
+.Uman{
+    color: gray;
+    letter-spacing: 2px;
+    margin-left: 10%;
+    font-family: 'Courier New', Courier, monospace
+   
+}
+nav{
+    margin: -0.8% -8px 0px -8px;
+    box-shadow: 0 3px 3px -3px #bbbbbb;
+    background-color: white;
+    width: 100.4%;
+    
+}
+#Email{
+    width: 383px;
+    border-radius: 3px;
+    border: solid 1px #e7e7e7;
+    background-color: #fffefa;
+    margin-left: 9%;
+    border-radius: 8px;
+    padding: 3%;
+    padding-bottom: 4%;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #777777;
+}
+
+.Sendbtn{
+    background-color: rgb(70, 192, 133);
+    color: white;
+    padding: 3%;
+    margin: 0% 0% 5% 0%;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0px 0px 16px 1px #eeeeee;
+    margin-left: 1%;
+    margin-left: 15%;
+    cursor: pointer;
+    width: 352px;
+ height: 63px;
+ border-radius: 5px;
+ background-image: linear-gradient(to bottom, #47c889, #459d72);
+ 
+}
